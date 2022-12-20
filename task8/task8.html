@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task-8</title>
+</head>
+<body>
+    <form action="a.html" method="POST">
+        <label for="user">Username</label>
+        <br>
+        <input type="text" id="user" name="username" value="sajadaziz" readonly>
+        <hr>
+        <label for="email">Email</label>
+        <br>
+        <input type="email" id="email" placeholder="Enter Your E-mail" name="e-mail">
+        <hr>
+        <label for="pass">Password</label><br>
+        <input type="password" id="pass" minlength="8" maxlength="8" required placeholder="Enter Your Password"
+            name="password">
+        <hr>
+
+        <input type="hidden" id="custId" name="id" value="1996">
+        <h2>Please select your favorite OS:</h2>
+
+        <input type="radio" name="choose" id="Windows">
+        <label for="Windows">Windows</label>
+        <br>
+        <input type="radio" name="choose" id="linux">
+        <label for="linux">linux</label>
+        <br>
+        <input type="radio" name="choose" id="Mac">
+        <label for="Mac">Mac</label>
+        <br>
+        <br>
+
+        <hr>
+        <h3>Choose Your Checkboxes</h3>
+        <input type="checkbox" name="chack" id="eng">
+        <label for="home">Iam engineer</label>
+        <br>
+        <input type="checkbox" name="chack" id="doc">
+        <label for="car">Iam not a doctor</label>
+        <br>
+        <input type="checkbox" name="chack" id="teach">
+        <label for="Married">Iam not a teacher</label>
+        <br>
+        <hr>
+        <input type="submit" value="Send">
+    </form>
+</body>
+</html>
